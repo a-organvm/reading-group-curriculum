@@ -6,7 +6,7 @@ guides from reading materials with questions, prompts, and activities.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Any
 from uuid import uuid4
 
