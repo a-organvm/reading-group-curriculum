@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-02-17
+
+### Added
+- **AQUA COMMUNIS sprint** — repository tests + CI normalization
+- `tests/test_repository.py` — 12 structure tests + 4 live DB tests (gated behind `DATABASE_URL`)
+- Test count: 33 → 49 (+16, 4 skipped)
+
+### Changed
+- CI Python version normalized from 3.12 to 3.11 (consistent with all other ORGAN-VI repos)
+
 ## [0.3.0] - 2026-02-17
 
 ### Added
