@@ -19,13 +19,7 @@ class CurriculumRepository:
     """Sync repository wrapping SQLAlchemy queries for CLI use."""
 
     def __init__(self, database_url: str) -> None:
-        url = database_url
-        # Ensure we use sync psycopg (v3) driver explicitly.
-        # SQLAlchemy's bare postgresql:// defaults to psycopg2 which is
-        # not installed; the koinonia-db stack ships psycopg (v3).
-        if url.startswith("postgresql://"):
-            url = url.replace("postgresql://", "postgresql+psycopg://", 1)
-        self._engine = create_engine(url)
+        self._engine = create_engine(database_url)
 
     # ── Curricula ──────────────────────────────────────────────
 

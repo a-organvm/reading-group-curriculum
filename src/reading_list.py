@@ -1,5 +1,8 @@
 """Reading list management with annotations and recommendations.
 
+DEPRECATED: This in-memory implementation is retained as an offline fallback.
+For database-backed operations, use repository.py with koinonia-db models.
+
 Provides the ReadingList class for curating and annotating collections
 of readings for group study.
 """

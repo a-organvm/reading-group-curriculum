@@ -1,5 +1,8 @@
 """Discussion guide generation for reading groups.
 
+DEPRECATED: This in-memory implementation is retained as an offline fallback.
+For database-backed operations, use repository.py with koinonia-db models.
+
 Provides the GuideGenerator for creating structured discussion
 guides from reading materials with questions, prompts, and activities.
 """

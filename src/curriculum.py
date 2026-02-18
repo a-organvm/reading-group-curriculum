@@ -1,5 +1,8 @@
 """Reading group curriculum design.
 
+DEPRECATED: This in-memory implementation is retained as an offline fallback.
+For database-backed operations, use repository.py with koinonia-db models.
+
 Provides the ReadingCurriculum class for organizing multi-session
 reading programs with thematic arcs and progression tracking.
 """

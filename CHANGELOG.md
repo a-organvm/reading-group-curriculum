@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-02-17
+
+### Added
+
+- Database-backed repository (CurriculumRepository) using koinonia-db models
+- Click CLI with `list`, `show`, `export`, and `seed` commands
+- Seed command imports curricula, reading entries, and discussion guides from JSON
+
+### Changed
+
+- URL conversion (postgresql→psycopg) moved from repository to config.py
+
+### Deprecated
+
+- In-memory `ReadingCurriculum`, `GuideGenerator`, and `ReadingList` classes (retained as offline fallback)
+
+## [0.1.1] - 2026-02-11
+
 ### Added
 
 - Platinum Sprint: standardized badge row, CHANGELOG
@@ -19,5 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial public release as part of the organvm eight-organ system
 - Core project structure and documentation
 
-[Unreleased]: https://github.com/organvm-vi-koinonia/reading-group-curriculum/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/organvm-vi-koinonia/reading-group-curriculum/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/organvm-vi-koinonia/reading-group-curriculum/compare/v0.1.1...v0.2.0
+[0.1.1]: https://github.com/organvm-vi-koinonia/reading-group-curriculum/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/organvm-vi-koinonia/reading-group-curriculum/releases/tag/v0.1.0
