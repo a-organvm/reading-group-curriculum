@@ -9,9 +9,17 @@ guides from reading materials with questions, prompts, and activities.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
-from typing import Any
-from uuid import uuid4
+import warnings
+
+warnings.warn(
+    "reading_group_curriculum.guides is deprecated — use repository.CurriculumRepository",
+    DeprecationWarning,
+    stacklevel=2,
+)
+
+from dataclasses import dataclass  # noqa: E402
+from typing import Any  # noqa: E402
+from uuid import uuid4  # noqa: E402
 
 
 @dataclass

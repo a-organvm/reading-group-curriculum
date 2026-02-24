@@ -9,9 +9,17 @@ of readings for group study.
 
 from __future__ import annotations
 
-from dataclasses import dataclass, field
-from typing import Any
-from uuid import uuid4
+import warnings
+
+warnings.warn(
+    "reading_group_curriculum.reading_list is deprecated — use repository.CurriculumRepository",
+    DeprecationWarning,
+    stacklevel=2,
+)
+
+from dataclasses import dataclass, field  # noqa: E402
+from typing import Any  # noqa: E402
+from uuid import uuid4  # noqa: E402
 
 
 @dataclass
