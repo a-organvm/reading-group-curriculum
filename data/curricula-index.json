@@ -1,0 +1,38 @@
+{
+  "curriculum_count": 3,
+  "total_sessions": 24,
+  "total_weeks": 24,
+  "themes": [
+    "building-in-public",
+    "cross-organ",
+    "recursive-systems"
+  ],
+  "reading_entry_count": 39,
+  "referenced_reading_keys": 39,
+  "curricula": [
+    {
+      "title": "Foundations of Recursive Systems",
+      "theme": "recursive-systems",
+      "organ_focus": "ORGAN-I",
+      "duration_weeks": 8,
+      "session_count": 8,
+      "description": "An 8-week exploration of recursive, self-referential, and strange-loop systems \u2014 from formal logic through creative practice. Draws on foundational texts and ORGAN-I project artifacts to build intuition for how recursion generates novelty."
+    },
+    {
+      "title": "Building in Public: The AI-Conductor Method",
+      "theme": "building-in-public",
+      "organ_focus": "ORGAN-V",
+      "duration_weeks": 6,
+      "session_count": 6,
+      "description": "A 6-week study of transparent development methodology, drawing on ORGAN-V essays and external references. Examines the AI-conductor model, POSSE distribution, and the ethics of building with AI in public."
+    },
+    {
+      "title": "From Theory to Product: The Organ Pipeline",
+      "theme": "cross-organ",
+      "organ_focus": "cross-organ",
+      "duration_weeks": 10,
+      "session_count": 10,
+      "description": "A 10-week cross-organ journey tracing ideas from theoretical inception (ORGAN-I) through creative expression (ORGAN-II) to practical product (ORGAN-III), governed by ORGAN-IV and documented by ORGAN-V. The capstone curriculum of the koinonia reading group program."
+    }
+  ]
+}
