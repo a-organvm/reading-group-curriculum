@@ -23,17 +23,13 @@ Structured reading group curricula spanning eight-organ domains: 8-12 week progr
     __init__.py
     __main__.py
     config.py
-    curriculum.py
     export.py
-    guides.py
-    reading_list.py
     repository.py
 📁 tests/
     __init__.py
-    test_curriculum.py
+    test_data_export.py
     test_export.py
-    test_guides.py
-    test_reading_list.py
+    test_repository.py
   .gitignore
   CHANGELOG.md
   LICENSE
