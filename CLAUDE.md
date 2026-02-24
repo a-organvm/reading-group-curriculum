@@ -68,19 +68,19 @@ It belongs to **ORGAN VI (Community)** under the `organvm-vi-koinonia` GitHub or
 <!-- ORGANVM:AUTO:START -->
 ## System Context (auto-generated — do not edit)
 
-**Organ:** ORGAN-VI (Community) | **Tier:** standard | **Status:** LOCAL
-**Org:** `unknown` | **Repo:** `reading-group-curriculum`
+**Organ:** ORGAN-VI (Community) | **Tier:** standard | **Status:** CANDIDATE
+**Org:** `organvm-vi-koinonia` | **Repo:** `reading-group-curriculum`
 
 ### Edges
-- **Produces** → `unknown`: unknown
-- **Consumes** ← `unknown`: unknown
-- **Consumes** ← `ORGAN-V`: unknown
+- **Produces** → `data`: Reading curricula, session plans, discussion guides
+- **Consumes** ← `koinonia-db`: Shared database models and migrations
+- **Consumes** ← `ORGAN-V`: Published essays feed reading group discussions
 
 ### Siblings in Community
-`salon-archive`, `.github`, `adaptive-personal-syllabus`
+`community-hub` (flagship), `koinonia-db`, `salon-archive`, `adaptive-personal-syllabus`, `.github`
 
 ### Governance
-- *Standard ORGANVM governance applies*
+- Community infrastructure layer. Consumes from ORGAN-I, II, III. No back-edges.
 
-*Last synced: 2026-02-24T01:01:15Z*
+*Last synced: 2026-02-24T12:00:00Z*
 <!-- ORGANVM:AUTO:END -->
