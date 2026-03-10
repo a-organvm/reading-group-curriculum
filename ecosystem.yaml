@@ -1,0 +1,8 @@
+schema_version: '1.0'
+repo: reading-group-curriculum
+organ: VI
+display_name: 'Structured reading group curricula spanning eight-organ domains: 8-12
+  week programs with curated reading lists, discussion guides, and exercises'
+delivery:
+- platform: web_app
+  status: not_started
