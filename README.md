@@ -252,3 +252,11 @@ For questions about the reading group program, curriculum proposals, or communit
 ---
 
 *ORGAN-VI is where the organvm system's ideas are studied, debated, and deepened through shared inquiry. The reading group curriculum provides the structure for that study — not as academic exercise, but as creative practice.*
+
+<!-- SYSTEM-NAV-START -->
+
+---
+
+<sub>[Portfolio](https://4444j99.github.io/portfolio/) · [System Directory](https://4444j99.github.io/portfolio/directory/) · [ORGAN VI · Koinonia](https://organvm-vi-koinonia.github.io/) · Part of the <a href="https://4444j99.github.io/portfolio/directory/">ORGANVM eight-organ system</a></sub>
+
+<!-- SYSTEM-NAV-END -->
