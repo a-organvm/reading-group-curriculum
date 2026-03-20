@@ -1,8 +1,25 @@
 schema_version: '1.0'
 repo: reading-group-curriculum
 organ: VI
-display_name: 'Structured reading group curricula spanning eight-organ domains: 8-12
-  week programs with curated reading lists, discussion guides, and exercises'
+display_name: "Structured reading group curricula — 8-12 week programs with curated lists, discussion guides, exercises"
+
 delivery:
-- platform: web_app
+- platform: data_package
+  status: live
+  priority: high
+  notes: "Curricula index and sample curriculum in data/ directory"
+  next_action: "Expand curriculum catalog across all eight organ domains"
+
+community:
+- platform: reading_groups
+  status: planned
+  priority: critical
+  notes: "Facilitated reading groups using structured curricula"
+  next_action: "Launch first reading group using completed curriculum"
+
+content:
+- platform: docs_site
   status: not_started
+  priority: medium
+  notes: "Curriculum design methodology and facilitator guide"
+  next_action: "Write facilitator guide for running reading groups"
